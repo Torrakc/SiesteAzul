@@ -1,0 +1,126 @@
+p{ 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color:rgb(153, 255, 179);
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 10px;
+}
+p {border-style: ridge;}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:80px;
+	/*color:black;*/
+    color:aliceblue;
+    text-align:center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+body{
+    background-color:midnightblue !important;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none;
+    padding:0;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(23, 5, 87);
+    position: -webkit-sticky;
+    position:sticky;
+    top:0;
+    padding-left:26%;
+  }
+  
+  li {
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(153, 255, 179);
+    color:black;
+  }
+.op{
+  background-image: url("unknown.gif");
+}
+pl a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: rgb(153, 255, 179);
+}
+pl{
+  width: 50px;
+  background: rgb(153, 255, 179);
+  transition: width 1s, height 1s;
+  float:right;
+}
+
+pl:hover {
+  width: 150px;
+}
+pepo {
+  font-family: Helvetica, sans-serif;
+  padding: 5%;
+  text-align: center;
+  font-size: 50;
+}
+#slideshow {
+  overflow: hidden;
+  height: 480px;
+  width: 720px;
+  margin: 0 auto;
+}
+.slide {
+  float: left;
+  height: 480px;
+  width: 720px;
+}
+.slide-wrapper {
+  width: calc(720px * 4);
+  animation: slide 30s ease infinite;
+}
+.slide:nth-child(1) {
+  background-image: url("images/Prueba1.png");
+}
+.slide:nth-child(2) {
+  background-image: url("images/7.png");
+}
+.slide:nth-child(3) {
+  background-image: url("images/way.jpeg");
+}
+.slide:nth-child(4) {
+  background-image: url("images/7.png");
+}
+@keyframes slide {
+  20% {
+    margin-left: 0px;
+  }
+ 
+  40% {
+    margin-left: calc(-720px * 1);
+  }
+ 
+  60% {
+    margin-left: calc(-720px * 2);
+  }
+ 
+  80% {
+    margin-left: calc(-720px * 3);
+  }
+}
