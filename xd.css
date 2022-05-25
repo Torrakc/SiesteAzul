@@ -17,6 +17,14 @@ h1{
     margin-top: 0%;
     margin-bottom: 0%;
 }
+h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  color:aliceblue;
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
 body{
     background-color:midnightblue !important;
     background-size:contain;
@@ -123,4 +131,12 @@ pepo {
   80% {
     margin-left: calc(-720px * 3);
   }
+}
+ho {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 250%;
+  font-weight: bolder;
+  margin:auto;
+  overflow: hidden;
+  color:whitesmoke;
 }
